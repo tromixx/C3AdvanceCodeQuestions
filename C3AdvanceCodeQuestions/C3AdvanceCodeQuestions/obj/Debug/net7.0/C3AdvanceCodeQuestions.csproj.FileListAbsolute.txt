@@ -1,0 +1,15 @@
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/bin/Debug/net7.0/C3AdvanceCodeQuestions
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/bin/Debug/net7.0/C3AdvanceCodeQuestions.deps.json
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/bin/Debug/net7.0/C3AdvanceCodeQuestions.runtimeconfig.json
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/bin/Debug/net7.0/C3AdvanceCodeQuestions.dll
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/bin/Debug/net7.0/C3AdvanceCodeQuestions.pdb
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.csproj.AssemblyReference.cache
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.AssemblyInfoInputs.cache
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.AssemblyInfo.cs
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.csproj.CoreCompileInputs.cache
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.dll
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/refint/C3AdvanceCodeQuestions.dll
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.pdb
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.genruntimeconfig.cache
+/Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/ref/C3AdvanceCodeQuestions.dll
