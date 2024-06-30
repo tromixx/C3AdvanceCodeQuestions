@@ -11,10 +11,9 @@ namespace CompileCs
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
-            System.Console.WriteLine("This is working!");
-                        //7 Create a generic method that takes a list of items and a predicate, 
+            //1 Create a generic method that takes a list of items and a predicate, 
             //and returns a new list of items that match the predicate. Use a lambda expression to define the predicate.
             var demo2 = new CombinedDemo();
 

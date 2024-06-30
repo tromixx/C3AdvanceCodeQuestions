@@ -12,6 +12,8 @@ class Helper
         System.Console.WriteLine("Inside Helper");
     }
 }
+
+//1. Hash Tables and Arrays
 public class CombinedDemo
 {
     public List<T> FilterList<T>(List<T> list, Func<T, bool> predicate)
