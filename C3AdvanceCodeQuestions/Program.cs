@@ -46,26 +46,51 @@ namespace CompileCs
             /*Two Sum Problem
             Question: Given an array of integers and a target sum, 
             return the indices of the two numbers that add up to the target sum.*/
-            
+            int[] nums = { 2, 7, 11, 15 };
+            int target = 9;
+            int[] result2 = Helper.FindTwoSum(nums, target);
+
+            Console.WriteLine($"Indices: {result2[0]}, {result2[1]}");
+
 
             //1.3. Dictionaries and Arrays
             /*Group Anagrams
             Question: Given an array of strings, group anagrams together. For example, 
             given ["eat", "tea", "tan", "ate", "nat", "bat"], return [["eat", "tea", "ate"], 
             ["tan", "nat"], ["bat"]].*/
+            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+            var result3 = Helper.Group(strs);
+
+            foreach (var group in result3)
+            {
+                Console.WriteLine(string.Join(", ", group));
+            }
 
             //1.4. Dictionaries and Arrays
             /*Longest Consecutive Sequence
             Question: Given an unsorted array of integers, 
             find the length of the longest consecutive elements sequence. For example, given [100, 4, 200, 1, 3, 2], 
             the longest consecutive elements sequence is [1, 2, 3, 4]. Return its length: 4.*/
+            int[] nums4 = { 100, 4, 200, 1, 3, 2 };
+            int result4 = Helper.LongestConsecutive(nums);
 
+            Console.WriteLine($"Length of the longest consecutive sequence: {result4}");
+    
             //1.5. Dictionaries and Arrays
             /*Find All Duplicates in an Array
             Question: Given an array of integers, find all the duplicates in the array. 
             For example, given [4,3,2,7,8,2,3,1], return [2, 3].*/
+            int[] nums5 = { 4, 3, 2, 7, 8, 2, 3, 1 };
+            var result5 = Helper.FindAllDuplicates(nums);
 
+            Console.WriteLine($"Duplicates: {string.Join(", ", result5)}");
+            
             //1.6. Dictionaries and Arrays
+            int[] nums62 = { 1, 2, 2, 1 };
+            int[] nums63 = { 2, 2 };
+            var result6 = Helper.Intersect(nums63, nums63);
+
+            Console.WriteLine($"Intersection: {string.Join(", ", result)}");
         }
     }
 }
