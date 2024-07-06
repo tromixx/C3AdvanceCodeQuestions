@@ -91,6 +91,17 @@ namespace CompileCs
             var result6 = Helper.Intersect(nums63, nums63);
 
             Console.WriteLine($"Intersection: {string.Join(", ", result)}");
+
+
+
+            //2.0
+            /*Given a list of integers, write a method that returns a new list containing 
+            only the even numbers from the original list using a lambda expression.*/
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            List<int> evenNumbers = Helper.GetEvenNumbers(numbers);
+
+            Console.WriteLine("Even numbers: " + string.Join(", ", evenNumbers));
+            
         }
     }
 }
