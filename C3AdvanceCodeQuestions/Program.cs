@@ -101,6 +101,39 @@ namespace CompileCs
             List<int> evenNumbers = Helper.GetEvenNumbers(numbers);
 
             Console.WriteLine("Even numbers: " + string.Join(", ", evenNumbers));
+
+            //2.1
+            /*Sorting a List of Strings by Length
+            Problem:
+            You have a list of integers and you need to filter out all the numbers that are greater than 10.*/
+
+            List<int> numeros = new List<int> { 1, 5, 11, 12, 4, 2, 8, 20, 3};
+            List<int> numerosOrdenados = numeros.Where(n => n > 10).ToList();
+
+            System.Console.WriteLine("Numeros > than 10: ");
+            numerosOrdenados.ForEach( n => System.Console.WriteLine(n));
+
+
+            //2.2
+            /*Sorting a List of Strings by Length
+            Problem:
+            You have a list of strings and you need to sort them by their lengths in ascending order.*/
+            List<string> words = new List<string> { "apple", "banana", "pear", "grapefruit"};
+            List<string> sortwords = words.ForEach( w => w.Length).ToList();
+
+            System.Console.WriteLine("Words sorted by length: ");
+            sortwords.ForEach(w => System.Console.WriteLine(w));
+
+
+            //2.3
+            /*Transforming a List of Numbers
+            Problem:
+            You have a list of integers and you need to transform each number by squaring it.*/
+            List<int> numeros1 = new List<int> { 1, 2, 3, 4};
+            List<int> numeros2 = numeros1.ForEach( n => n*n).ToList();
+
+            System.Console.WriteLine("Square numbers:");
+            numeros2.ForEach( n => System.Console.WriteLine(n));
             
         }
     }
