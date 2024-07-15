@@ -171,18 +171,6 @@ class Helper
         return numbers.Where(n => n % 2 == 0).ToList();
     }
 
-
-    //3.0
-    public static string ReverseString(this string str)
-    {
-        return new string(str.Reverse().ToArray());
-    }
-
-    //3.1
-    /**/            
-    
-    //3.2
-    /**/
 }
 
 
@@ -195,12 +183,3 @@ public class CombinedDemo
     }
     
 }
-
-//2. Dictionaries and Arrays
-
-//3. Dictionaries and Arrays
-
-//4. Dictionaries and Arrays
-//5. Dictionaries and Arrays
-//6. Dictionaries and Arrays
-//7. Dictionaries and Arrays
