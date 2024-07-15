@@ -170,7 +170,21 @@ class Helper
         // Using a lambda expression to filter even numbers
         return numbers.Where(n => n % 2 == 0).ToList();
     }
+
+
+    //3.0
+    public static string ReverseString(this string str)
+    {
+        return new string(str.Reverse().ToArray());
+    }
+
+    //3.1
+    /**/            
+    
+    //3.2
+    /**/
 }
+
 
 //1. Dictionaries and Arrays
 public class CombinedDemo

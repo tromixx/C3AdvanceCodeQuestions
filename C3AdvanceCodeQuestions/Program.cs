@@ -10,7 +10,7 @@ namespace CompileCs
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
             //1.0 Create a generic method that takes a list of items and a predicate, 
             //and returns a new list of items that match the predicate. Use a lambda expression to define the predicate.
@@ -134,7 +134,20 @@ namespace CompileCs
 
             System.Console.WriteLine("Square numbers:");
             numeros2.ForEach( n => System.Console.WriteLine(n));
+
+            //3.0
+            /*Create an extension method for the string class that reverses the string.*/
+            string original1 = "hello";
+            string reverced = Helper.ReverseString(original1);
+
+            System.Console.WriteLine($"Original: {original1}");
+            System.Console.WriteLine($"Reverced: {reverced}");
+
+            //3.1
+            /**/            
             
+            //3.2
+            /**/
         }
     }
 }
