@@ -11,6 +11,7 @@ The orfer of topics:
 6. LINQ
 7. Async/Await
 8. Binary and AVL Tress
+9. Generic C# questions
 
 0. Solid Principles:
 
@@ -42,9 +43,43 @@ public class MultifunctionPrinter : IPrinter, IScanner
 Dependency Inversion Principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Additionally, abstractions should not depend on details; details should depend on abstractions. This principle helps in reducing the coupling between different parts of the code.
 
 
+1. Dictionaries and Arrays:
 
 
-Generic C# questions:
+2. Lambda Expressions:
+Lambda expressions are a concise way to represent anonymous methods using a special syntax.
+They are often used with LINQ queries and delegate/event handlers.
+Syntax: (parameters) => expression or (parameters) => { statements; }.
+
+
+3. Extension Methods 
+Extension methods allow you to "add" methods to existing types without modifying the original type or using inheritance.
+They are defined as static methods but are called as if they were instance methods on the extended type.
+
+4. Events and Delegates
+A delegate is a type-safe function pointer that defines a method signature.
+Delegates can point to methods with the same signature and return type.
+
+5. Generics
+Generics allow you to define classes, methods, delegates, and interfaces with a placeholder for the type of data they store and manipulate.
+They increase code reusability, type safety, and performance.
+
+6. LINQ
+LINQ is a set of features that extends powerful query capabilities to the C# language syntax.
+It allows querying of collections like arrays, enumerable classes, XML, relational databases, and more using a unified syntax.
+
+7. Async/Await
+async and await are keywords used for asynchronous programming.
+async marks a method as asynchronous, while await pauses the method execution until the awaited task completes.
+
+8. Binary and AVL Tress
+A binary tree is a tree data structure where each node has at most two children, referred to as the left child and the right child.
+AVL Tree:
+An AVL tree is a self-balancing binary search tree.
+It maintains the property that the heights of the two child subtrees of any node differ by at most one.
+
+
+9. Generic C# questions:
 ### C# Interview Questions
 
 1. **What is the difference between abstract and virtual methods in C#?**

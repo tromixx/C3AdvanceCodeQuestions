@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace CompileCs
 {
-    class Program
+    internal static class Program
     {
         static int Main(string[] args)
         {
@@ -119,10 +119,10 @@ namespace CompileCs
             Problem:
             You have a list of strings and you need to sort them by their lengths in ascending order.*/
             List<string> words = new List<string> { "apple", "banana", "pear", "grapefruit"};
-            List<string> sortwords = words.ForEach( w => w.Length).ToList();
+            //List<string> sortwords = words.ForEach( w => w.Length).ToList();
 
             Console.WriteLine("Words sorted by length: ");
-            sortwords.ForEach(w => Console.WriteLine(w));
+            //sortwords.ForEach(w => Console.WriteLine(w));
 
 
             //2.3
@@ -130,38 +130,45 @@ namespace CompileCs
             Problem:
             You have a list of integers and you need to transform each number by squaring it.*/
             List<int> numeros1 = new List<int> { 1, 2, 3, 4};
-            List<int> numeros2 = numeros1.ForEach( n => n*n).ToList();
+            //List<int> numeros2 = numeros1.ForEach( n => n * n).ToList();
 
             Console.WriteLine("Square numbers:");
-            numeros2.ForEach( n => Console.WriteLine(n));
+            //numeros2.ForEach( n => Console.WriteLine(n));
 
             //3.0
             /*Create an extension method for the string class that reverses the string.*/
             string original1 = "hello";
-            string reverced = Helper.ReverseString(original1);
+            //string reverced = Helper.ReverseString(original1);
 
             Console.WriteLine($"Original: {original1}");
-            Console.WriteLine($"Reverced: {reverced}");
+            //Console.WriteLine($"Reverced: {reverced}");
 
             //3.1
             /*Checking if a Number is Even
             Problem:
             Create an extension method for the int class that checks if a number is even.*/            
             int number = 4;
-            bool isEven = number.IsEven();
+            //bool isEven = number.IsEven();
         
-            Console.WriteLine($"{number} is even: {isEven}");
+            //Console.WriteLine($"{number} is even: {isEven}");
 
             
             //3.2
             /*Problem: Converting List of Strings to Uppercase
             Problem:
             Create an extension method for List<string> that converts all strings in the list to uppercase.*/
-            List<string> words = new List<string> { "apple", "banana", "cherry" };
-            List<string> upperCaseWords = words.ToUpperCase();
+            //List<string> words = new List<string> { "apple", "banana", "cherry" };
+            //List<string> upperCaseWords = words.ToUpperCase();
             
             Console.WriteLine("Words in uppercase:");
-            upperCaseWords.ForEach(word => Console.WriteLine(word));
+            //upperCaseWords.ForEach(word => Console.WriteLine(word));
+
+
+            //4.0
+            //4.1
+            //4.2
+
+            return default;
         }
         
         //3.0
