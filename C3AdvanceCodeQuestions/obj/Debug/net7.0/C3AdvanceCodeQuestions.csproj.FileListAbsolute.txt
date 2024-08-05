@@ -13,7 +13,6 @@
 /Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.pdb
 /Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.genruntimeconfig.cache
 /Users/tomasvenere/Desktop/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/ref/C3AdvanceCodeQuestions.dll
-/Users/tomasvenere/Desktop/Repos/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.csproj.AssemblyReference.cache
 /Users/tomasvenere/Desktop/Repos/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.GeneratedMSBuildEditorConfig.editorconfig
 /Users/tomasvenere/Desktop/Repos/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.AssemblyInfoInputs.cache
 /Users/tomasvenere/Desktop/Repos/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.AssemblyInfo.cs
@@ -28,3 +27,4 @@
 /Users/tomasvenere/Desktop/Repos/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/bin/Debug/net7.0/C3AdvanceCodeQuestions.pdb
 /Users/tomasvenere/Desktop/Repos/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.genruntimeconfig.cache
 /Users/tomasvenere/Desktop/Repos/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/ref/C3AdvanceCodeQuestions.dll
+/Users/tomasvenere/Desktop/Repos/C3AdvanceCodeQuestions/C3AdvanceCodeQuestions/obj/Debug/net7.0/C3AdvanceCodeQuestions.sourcelink.json

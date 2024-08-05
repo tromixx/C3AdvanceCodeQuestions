@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C3AdvanceCodeQuestions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d266eef82cf9878ebebe708fca345ecc714aedb2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0786d2b61e06dfe378a2405e188c971d3e372a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("C3AdvanceCodeQuestions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C3AdvanceCodeQuestions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
